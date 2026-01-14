@@ -1,0 +1,12 @@
+.app-footer {
+  display: grid;
+  place-items: center;
+
+  padding-block: 0.5rem;
+
+  background-color: var(--clr-bg-dark);
+
+  > img {
+    width: 200px;
+  }
+}

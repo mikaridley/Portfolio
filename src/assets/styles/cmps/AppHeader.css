@@ -1,0 +1,26 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+
+  padding-inline: 4rem;
+  padding-block-start: 2rem;
+
+  background-color: var(--clr-bg-main);
+
+  .logo {
+    width: 120px;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 4rem;
+
+    > * {
+      transition: transform 0.2s ease;
+    }
+
+    > *:hover {
+      text-decoration: overline;
+    }
+  }
+}

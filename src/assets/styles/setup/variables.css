@@ -1,0 +1,14 @@
+:root {
+  --clr-bg-main: #8fad95;
+  --clr-bg-secondary: #f6c2c2;
+  --clr-bg-accent: #ececec;
+  --clr-bg-light: white;
+  --clr-bg-black: rgb(0, 0, 0);
+  --clr-bg-dark: #494f5e;
+
+  /* social */
+  --clr-whatsup: #25d366;
+  --clr-linkedin: #0a66c2;
+  --clr-mail: #c71610;
+  --clr-github: #2b3137;
+}
