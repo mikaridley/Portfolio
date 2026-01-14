@@ -1,4 +1,5 @@
 import { AppHeader } from '../cmps/AppHeader'
+import { AppFooter } from '../cmps/AppFooter'
 
 import { MainAboutMe } from '../cmps/MainAboutMe'
 import { Intoduction } from '../cmps/Intoduction'
@@ -10,9 +11,18 @@ export function HomePage() {
     <section className="home-page">
       <UserMsg />
       <AppHeader />
+
       <MainAboutMe />
-      <Intoduction />
-      <Projects />
+
+      <section id="about">
+        <Intoduction />
+      </section>
+
+      <section id="projects">
+        <Projects />
+      </section>
+
+      <AppFooter />
     </section>
   )
 }

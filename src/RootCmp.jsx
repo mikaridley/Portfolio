@@ -13,7 +13,6 @@ export function RootCmp() {
           <Route path="" element={<HomePage />} />
         </Routes>
       </main>
-      <AppFooter />
     </div>
   )
 }
