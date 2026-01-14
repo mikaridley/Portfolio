@@ -13,6 +13,8 @@ export function Projects() {
           'Project management tool that uses boards, lists, and cards to organize tasks and collaborate with a team.'
         }
         image={marshmelloPreview}
+        liveUrl={'https://marshmello-0v1f.onrender.com/'}
+        gitUrl={'https://github.com/mikaridley/Marshmello'}
       />
 
       <ProjectPreview
@@ -21,6 +23,8 @@ export function Projects() {
           'Sticky-note-style app for quickly capturing and syncing notes, lists, and photos across your devices.'
         }
         image={simplePenPreview}
+        liveUrl={'https://mikaridley.github.io/SimplePen/#/note'}
+        gitUrl={'https://github.com/mikaridley/SimplePen'}
       />
 
       <ProjectPreview
@@ -29,6 +33,8 @@ export function Projects() {
           'A digital tool that allows you to quickly overlay clever or humorous captions onto popular images to create viral internet content.'
         }
         image={memeCraftPreview}
+        liveUrl={'https://mikaridley.github.io/Meme-Craft/'}
+        gitUrl={'https://github.com/mikaridley/Meme-Craft'}
       />
     </section>
   )

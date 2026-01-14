@@ -1,4 +1,4 @@
-export function ProjectPreview({ name, image, description }) {
+export function ProjectPreview({ name, image, description, liveUrl, gitUrl }) {
   return (
     <div className={`project ${name}`}>
       <h2>{name}</h2>
@@ -7,8 +7,12 @@ export function ProjectPreview({ name, image, description }) {
       </div>
 
       <p>{description}</p>
-      <button className="visit-web ">Visit Website</button>
-      <button className="open-git ">Open Git</button>
+      <a className="visit-web" href={liveUrl} target="_blank" rel="noreferrer">
+        Visit Website
+      </a>
+      <a className="open-git" href={gitUrl} target="_blank" rel="noreferrer">
+        Open Git
+      </a>
     </div>
   )
 }
