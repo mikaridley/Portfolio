@@ -7,6 +7,7 @@ export function AppFooter() {
       <img src={logo} />
       <p>Living, learning, & leveling up one day at a time.</p>
       <SocialLinks />
+      <p className="copyright">© 2026 All rights reserved to Mika Ridley</p>
     </footer>
   )
 }

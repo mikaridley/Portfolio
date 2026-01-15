@@ -1,13 +1,25 @@
 .introduction {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  column-gap: 1.5rem;
-  row-gap: 1rem;
+  --min-padding: 100px;
+  --max-padding: 10vw;
 
-  padding-block: 3rem;
+  display: grid;
+  grid-template-columns: clamp(
+      var(--min-padding),
+      var(--max-padding),
+      var(--max-padding)
+    ) repeat(3, 1fr) clamp(
+      var(--min-padding),
+      var(--max-padding),
+      var(--max-padding)
+    );
+
+  column-gap: 2rem;
+  row-gap: 4rem;
+
+  padding-block: 6rem;
 
   .openning {
-    grid-column: 3 / 7;
+    grid-column: 2 / 5;
     display: grid;
     gap: 1rem;
 
@@ -27,6 +39,7 @@
     padding: 1rem;
     width: 100%;
     border-radius: 10px;
+    padding-bottom: 2rem;
 
     text-align: center;
     background-color: var(--clr-bg-light);
@@ -54,6 +67,7 @@
     ul {
       display: grid;
       place-items: center;
+      margin-bottom: 1.5rem;
 
       li {
         position: relative;
@@ -74,14 +88,14 @@
   }
 
   .tools {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
 
   .core-skills {
-    grid-column: 4 / 6;
+    grid-column: 3 / 4;
   }
 
   .experience {
-    grid-column: 6 / 8;
+    grid-column: 4 / 5;
   }
 }

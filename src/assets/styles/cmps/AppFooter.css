@@ -2,7 +2,8 @@
   display: grid;
   justify-items: center;
   gap: 1rem;
-  padding-block: 2rem;
+  padding-block-start: 2rem;
+  padding-inline: 1rem;
 
   background-color: var(--clr-bg-dark);
 
@@ -17,5 +18,10 @@
   > p {
     font-size: 1.2rem;
     color: var(--clr-bg-light);
+  }
+
+  .copyright {
+    justify-self: start;
+    font-size: 0.8rem;
   }
 }
