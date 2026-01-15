@@ -13,14 +13,17 @@
 
   .navigation {
     display: flex;
+    align-items: center;
     gap: 4rem;
 
     > * {
       transition: transform 0.2s ease;
     }
 
-    > *:hover {
-      text-decoration: overline;
+    a {
+      &:hover {
+        color: var(--clr-bg-light);
+      }
     }
   }
 }
