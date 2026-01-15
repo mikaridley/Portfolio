@@ -32,20 +32,19 @@
     grid-column: 4;
   }
 
-  .project {
+  .project-preview {
     position: relative;
     display: grid;
     justify-items: center;
     align-items: center;
     column-gap: 1rem;
 
-    text-transform: capitalize;
-
     > h2 {
       position: absolute;
       top: -14px;
       transform: translateY(-100%);
       color: Var(--clr-bg-dark);
+      text-transform: capitalize;
 
       &::after {
         content: '';

@@ -1,6 +1,6 @@
 export function ProjectPreview({ name, image, description, liveUrl, gitUrl }) {
   return (
-    <div className={`project ${name}`}>
+    <div className={`project-preview ${name}`}>
       <h2>{name}</h2>
       <div className="img-backgroung">
         <img src={image} />
