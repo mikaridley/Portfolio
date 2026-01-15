@@ -10,7 +10,7 @@ export function Projects() {
       <ProjectPreview
         name={'marshmello'}
         description={
-          'Project management tool that uses boards, lists, and cards to organize tasks and collaborate with a team.'
+          'Full-stack Trello clone. Developed with two teammates, it is a real-time, collaborative task management app with React, Node.js, MongoDB, and Socket.io.'
         }
         image={marshmelloPreview}
         liveUrl={'https://marshmello-0v1f.onrender.com/'}
@@ -20,7 +20,7 @@ export function Projects() {
       <ProjectPreview
         name={'simple-pen'}
         description={
-          'Sticky-note-style app for quickly capturing and syncing notes, lists, and photos across your devices.'
+          'Google Keep clone focusing on dynamic UI components and persistent client-side data management via localStorage.'
         }
         image={simplePenPreview}
         liveUrl={'https://mikaridley.github.io/SimplePen/#/note'}
@@ -30,7 +30,7 @@ export function Projects() {
       <ProjectPreview
         name={'meme-craft'}
         description={
-          'A digital tool that allows you to quickly overlay clever or humorous captions onto popular images to create viral internet content.'
+          'A vanilla JavaScript project that enables users to design memes with flexible text, featuring instant downloads and a responsive, interactive interface.'
         }
         image={memeCraftPreview}
         liveUrl={'https://mikaridley.github.io/Meme-Craft/'}
