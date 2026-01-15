@@ -73,7 +73,7 @@ select {
 
 input,
 textarea {
-  width: clamp(200px, 30vw, 30vw);
+  width: clamp(350px, 30vw, 30vw);
   padding: 0.8rem;
   border: 1px solid var(--clr-bg-dark);
   border-radius: 5px;

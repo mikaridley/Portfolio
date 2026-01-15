@@ -9,8 +9,6 @@
 
     width: 35px;
     border-radius: 1px;
-    /* box-shadow: 0 0 0 0.5rem var(--clr-bg-accent); */
-    /* background-color: var(--clr-bg-accent); */
     cursor: pointer;
 
     > img {

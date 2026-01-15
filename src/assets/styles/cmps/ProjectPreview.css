@@ -65,6 +65,9 @@
   .open-git,
   .visit-web {
     grid-row: 2;
+    display: grid;
+    place-items: center;
+
     height: max-content;
     font-size: 0.9rem;
     background-color: var(--clr-bg-light);
@@ -91,7 +94,6 @@
     > p,
     a {
       display: grid;
-      place-items: center;
     }
 
     .img-backgroung {
