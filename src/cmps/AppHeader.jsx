@@ -1,4 +1,3 @@
-import { Link, NavLink } from 'react-router-dom'
 import logo from '../assets/imgs/logo.png'
 
 export function AppHeader() {
@@ -10,7 +9,7 @@ export function AppHeader() {
       <nav className="navigation">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <NavLink to="">Contact Me</NavLink>
+        <a href="#contactMe">Contact Me</a>
       </nav>
     </header>
   )
