@@ -22,7 +22,7 @@ export function SocialLinks() {
   }
 
   return (
-    <section className="social-icons">
+    <section className="social-links">
       <a
         className="icon github"
         href="https://github.com/mikaridley"

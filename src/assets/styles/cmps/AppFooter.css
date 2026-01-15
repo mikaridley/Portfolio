@@ -1,12 +1,21 @@
 .app-footer {
   display: grid;
-  place-items: center;
-
-  padding-block: 0.5rem;
+  justify-items: center;
+  gap: 1rem;
+  padding-block: 2rem;
 
   background-color: var(--clr-bg-dark);
 
+  > * {
+    grid-column: span 2;
+  }
+
   > img {
     width: 200px;
+  }
+
+  > p {
+    font-size: 1.2rem;
+    color: var(--clr-bg-light);
   }
 }
