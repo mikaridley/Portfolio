@@ -99,7 +99,7 @@
     grid-column: 3 / 4;
 
     h2::before {
-      /* content: url('../../imgs/core.svg'); */
+      content: url('../../imgs/skills.svg');
     }
   }
 
