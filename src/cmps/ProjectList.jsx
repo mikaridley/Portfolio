@@ -3,9 +3,9 @@ import simplePenPreview from '../assets/imgs/simplePenPreview.png'
 import memeCraftPreview from '../assets/imgs/memeCraftPreview.png'
 import { ProjectPreview } from './ProjectPreview'
 
-export function Projects() {
+export function ProjectList() {
   return (
-    <section className="projects">
+    <section className="Project-list ">
       <h2>Top Projects</h2>
       <ProjectPreview
         name={'marshmello'}

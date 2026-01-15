@@ -3,7 +3,7 @@ import { AppFooter } from '../cmps/AppFooter'
 
 import { MainAboutMe } from '../cmps/MainAboutMe'
 import { Intoduction } from '../cmps/Intoduction'
-import { Projects } from '../cmps/Projects'
+import { ProjectList } from '../cmps/ProjectList'
 import { ContactMe } from '../cmps/ContactMe'
 import { UserMsg } from '../cmps/UserMsg'
 
@@ -20,7 +20,7 @@ export function HomePage() {
       </section>
 
       <section id="projects">
-        <Projects />
+        <ProjectList />
       </section>
 
       <section id="contactMe">
