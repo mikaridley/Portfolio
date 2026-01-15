@@ -45,8 +45,14 @@
 
     .resume-btn {
       margin-block: 1.5rem;
-      display: grid;
-      place-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &::before {
+        content: url('../../imgs/cv.svg');
+        transform: scale(0.7);
+      }
     }
   }
 
