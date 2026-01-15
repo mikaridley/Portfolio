@@ -1,6 +1,3 @@
-import toolsIcon from '../assets/imgs/tools.svg'
-import coreIcon from '../assets/imgs/core.svg'
-import experienceIcon from '../assets/imgs/experience.svg'
 import cssIcon from '../assets/imgs/css3.svg'
 import expressIcon from '../assets/imgs/express.svg'
 import html5Icon from '../assets/imgs/html5.svg'
@@ -27,7 +24,6 @@ export function Intoduction() {
       </div>
 
       <section className="tools">
-        <img src={toolsIcon} />
         <h2>Tools</h2>
         <h3>Frameworks</h3>
         <ul>
@@ -67,7 +63,6 @@ export function Intoduction() {
       </section>
 
       <section className="core-skills">
-        <img src={coreIcon} />
         <h2>Core Skills</h2>
         <h3>Languages</h3>
         <ul>
@@ -98,7 +93,6 @@ export function Intoduction() {
       </section>
 
       <section className="experience">
-        <img src={experienceIcon} />
         <h2>Experience</h2>
         <ul>
           <li>Full-Stack Development</li>

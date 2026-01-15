@@ -8,13 +8,13 @@
   background-color: var(--clr-bg-main);
 
   .logo {
-    width: 120px;
+    width: 140px;
   }
 
   .navigation {
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
 
     > * {
       transition: transform 0.2s ease;
