@@ -4,6 +4,7 @@
   align-items: start;
   justify-items: center;
   row-gap: 2rem;
+  column-gap: 12rem;
 
   width: 100%;
   padding-block-start: 6rem;
@@ -17,6 +18,7 @@
   clip-path: ellipse(110% 100% at 50% 0%);
 
   .about-me {
+    justify-self: end;
     display: grid;
     padding-inline-start: 8rem;
 
@@ -54,10 +56,15 @@
         content: url('../../imgs/cv.svg');
         transform: scale(0.7);
       }
+
+      &:hover {
+        background-color: var(--clr-bg-secondary);
+      }
     }
   }
 
   > .avatar {
+    justify-self: start;
     width: 500px;
   }
 }

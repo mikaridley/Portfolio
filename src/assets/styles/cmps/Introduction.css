@@ -23,6 +23,7 @@
     }
     > p {
       font-size: 1.1rem;
+      letter-spacing: 0.2px;
     }
   }
 
@@ -34,11 +35,11 @@
     max-width: 350px;
     min-width: 240px;
     border-radius: 10px;
-    padding-bottom: 2rem;
+    padding-block: 2rem;
 
     text-align: center;
     background-color: var(--clr-bg-light);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 6px;
 
     > h2 {
       position: relative;

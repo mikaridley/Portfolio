@@ -9,7 +9,6 @@
     position: absolute;
     top: -14px;
     transform: translateY(-100%);
-    color: Var(--clr-bg-dark);
     text-transform: capitalize;
 
     &::after {
@@ -65,15 +64,14 @@
   .open-git,
   .visit-web {
     grid-row: 2;
-    display: grid;
-    place-items: center;
-
     height: max-content;
     font-size: 0.9rem;
     background-color: var(--clr-bg-light);
     border-radius: 100vh;
     padding: 0.5rem;
     width: 7rem;
+
+    text-align: center;
 
     &:hover {
       background-color: var(--clr-bg-accent);
