@@ -10,8 +10,7 @@ export function MainAboutMe() {
         <h1>MIKA RIDLEY</h1>
         <h2>Full Stack Developer</h2>
         <p>
-          I build websites and I love it. Bringing ideas to life through code is
-          my craft.
+          I build websites and I love it. Let me bring your ideas to life through code.
         </p>
 
         <Tooltip title="Open in new tab">
