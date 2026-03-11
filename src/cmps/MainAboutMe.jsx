@@ -1,5 +1,4 @@
 import mikaAvatar from '../assets/imgs/mika-avatar.png'
-import resumePdf from '../assets/files/Full Stack Developer - Mika Ridley.pdf'
 import { SocialLinks } from './SocialLinks'
 import { Tooltip } from '@mui/material'
 
@@ -16,7 +15,7 @@ export function MainAboutMe() {
         <Tooltip title="Open in new tab">
           <a
             className="resume-btn btn"
-            href={resumePdf}
+            href="/Full Stack Developer - Mika Ridley.pdf"
             target="_blank"
             rel="noreferrer"
           >
