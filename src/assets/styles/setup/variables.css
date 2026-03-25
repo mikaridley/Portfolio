@@ -6,6 +6,9 @@
   --clr-bg-black: rgb(0, 0, 0);
   --clr-bg-dark: #494f5e;
 
+  /* buttons */
+  --clr-hover: #dcdcdc;
+
   /* social */
   --clr-whatsup: #25d366;
   --clr-linkedin: #0a66c2;

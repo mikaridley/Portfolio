@@ -74,7 +74,7 @@
     text-align: center;
 
     &:hover {
-      background-color: var(--clr-bg-accent);
+      background-color: var(--clr-hover);
     }
   }
 

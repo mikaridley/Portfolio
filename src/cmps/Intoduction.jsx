@@ -1,10 +1,12 @@
 import cssIcon from '../assets/imgs/css3.svg'
+import pythonIcon from '../assets/imgs/python.svg'
 import expressIcon from '../assets/imgs/express.svg'
 import html5Icon from '../assets/imgs/html5.svg'
 import javascriptIcon from '../assets/imgs/javascript.svg'
 import mongodbIcon from '../assets/imgs/mongodb.svg'
 import nodejsIcon from '../assets/imgs/nodejs.svg'
 import reactIcon from '../assets/imgs/react.svg'
+import vueIcon from '../assets/imgs/vue.svg'
 import figmaIcon from '../assets/imgs/figma.svg'
 import photoshopIcon from '../assets/imgs/photoshop.svg'
 import sqlIcon from '../assets/imgs/sql.svg'
@@ -30,6 +32,10 @@ export function Intoduction() {
           <li>
             <img src={reactIcon} />
             React
+          </li>
+          <li>
+            <img src={vueIcon} />
+            Vue
           </li>
           <li>
             <img src={nodejsIcon} />
@@ -77,6 +83,10 @@ export function Intoduction() {
           <li>
             <img src={cssIcon} />
             CSS
+          </li>
+          <li>
+            <img src={pythonIcon} />
+            Python
           </li>
           <li>
             <img src={sqlIcon} />

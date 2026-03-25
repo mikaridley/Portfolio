@@ -3,7 +3,10 @@
   display: grid;
   place-items: center;
 
-  width: max-content;
+  /* Allow the form to shrink on very small screens */
+  width: 100%;
+  max-width: 520px;
+  min-width: 0;
   border-radius: 10px;
   padding: 1rem;
   margin-bottom: 3rem;
@@ -21,6 +24,14 @@
 
   label {
     display: grid;
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .submit-btn {

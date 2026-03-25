@@ -4,7 +4,7 @@
   align-items: start;
   justify-items: center;
   row-gap: 2rem;
-  column-gap: 12rem;
+  column-gap: 8rem;
 
   width: 100%;
   padding-block-start: 6rem;
@@ -25,6 +25,7 @@
     > h1 {
       position: relative;
       right: 4px;
+      width: max-content;
 
       grid-column: 1 / span 2;
       height: 100px;
